@@ -1,4 +1,4 @@
-freeStyleJob("memory-map-examples_demo-${EXAMPLE_BRANCH}_GEN") {
+freeStyleJob("memory-map-examples_demo_${EXAMPLE_BRANCH}_GEN") {
     description("The memory-map-exampl demo job that shows the plugin in action on the branch ${EXAMPLE_BRANCH}")
     label 'linux && docker-tools'
     logRotator(-1, 5, -1, -1)
